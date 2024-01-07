@@ -10,6 +10,9 @@
   display: block;
   text-align: right;
 }
+.heading1 {
+  display: none;
+}
 .header-info img {
   width: 100%;
 }
@@ -22,7 +25,7 @@
     text-align: center;
 }
 }
-.centered-element {
+.main-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +43,7 @@
   padding: 0px;
 }
 .task-list__item,
-.heding2 {
+.heading2 {
   list-style: none;
 }
 .input,
@@ -60,7 +63,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.heding2,
+.heading2,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -87,7 +90,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.main_title {
   display: block;
   margin: 0 0 20px;
 }
