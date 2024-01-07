@@ -16,7 +16,7 @@
 .header-info img {
   width: 100%;
 }
-.header-info .more-inf {
+.header-info .header-info__link {
   font-family: fantasy, cursive;
 }
 
@@ -35,7 +35,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 .task-list {
