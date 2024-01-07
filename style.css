@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .header-info { text-align: center;
+  .header-info { 
+    text-align: center;
 }
 }
 .centered-element {
